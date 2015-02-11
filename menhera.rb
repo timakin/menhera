@@ -1,7 +1,6 @@
 #!/bin/env ruby
 #encoding:UTF-8
 require "twitter"
-require "yahoo_keyphrase_api"
 require "sentimental"
 # Twitter Access Token Setting
 @client = Twitter::REST::Client.new do |config|
